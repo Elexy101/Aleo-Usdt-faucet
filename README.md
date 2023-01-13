@@ -8,6 +8,7 @@ The core idea behind this project is to provide testing ground for faucet using 
 * Transfer ALEO token to another ALEO address from the owner with 2ALEO FEE
 * SWAP ALEO/USDT token WITH 1ALEO GAS FEE
 
+![Screenshot from 2023-01-11 21-49-32](https://user-images.githubusercontent.com/24855083/212211398-4af7ec98-992f-4ca1-b18c-af862c1257f0.png)
 
 ### User Flow
 1. The supply issues owners tokens via the `faucet` function.
@@ -16,6 +17,7 @@ The core idea behind this project is to provide testing ground for faucet using 
 4. A owner can `borrow` token to add to its amount
 5. A owner can `transfer` token -> USDT to a specific receiver and vice versa
 6. A owner can `swap` token (DEFAULT token: ALEO) to (token: USDT)
+
 
 ## Bugs
 
