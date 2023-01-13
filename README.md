@@ -13,9 +13,9 @@ The core idea behind this project is to provide testing ground for faucet using 
 1. The supply issues owners tokens via the `faucet` function.
 2. A owner stake tokens via the `stake` function.
 3. A owner unstake tokens via the `unstake` function.
-4. A owner can borrow token to add to its amount
-5. A owner can transfer token -> USDT to a specific receiver and vice versa
-6. A owner can swap token (DEFAULT token: USDT) to (token: DAI)
+4. A owner can `borrow` token to add to its amount
+5. A owner can `transfer` token -> USDT to a specific receiver and vice versa
+6. A owner can `swap` token (DEFAULT token: ALEO) to (token: USDT)
 
 ## Bugs
 
@@ -24,7 +24,7 @@ The core idea behind this project is to provide testing ground for faucet using 
 
 ## Future Update
 - Able to transfer token to two or more receivers
-- Able to swap token(DAI) back to Default token(USDT)
+- Able to swap token(USDT) back to Default token(ALEO)
 - I'm thinking haha...
 
 ## Language Features and Concepts
