@@ -1,0 +1,92 @@
+// The program input for test_faucet/src/main.leo
+[main]
+owner: address = aleo1avesdzv3cj3e8f6n62k0e90wwd0zkrk6lkl57z7lsun64gsf4qqswftphv;
+amount: u64 = 0u64;
+supply: u64 = 1000000u64;
+fee: u64 = 0u64;
+
+//Testing Faucet - Phase one
+//[faucet]
+//owner: address = aleo1avesdzv3cj3e8f6n62k0e90wwd0zkrk6lkl57z7lsun64gsf4qqswftphv
+//amount: u64 = 0u64;
+//supply: u64 = 1000000u64;
+
+[faucet]
+faucet_reset: ALEO = ALEO {
+     owner: aleo1avesdzv3cj3e8f6n62k0e90wwd0zkrk6lkl57z7lsun64gsf4qqswftphv,
+     gates: 0u64,
+     amount: 0u64,
+     supply: 1000000u64,
+     fee: 0u64,
+     _nonce: 6480683131255842390406647532838179519970794442201387718334686863304493823461group,
+};
+faucet_set: ALEO = ALEO {
+     owner: aleo1avesdzv3cj3e8f6n62k0e90wwd0zkrk6lkl57z7lsun64gsf4qqswftphv,
+     gates: 0u64,
+     amount: 100u64,
+     supply: 999900u64,
+     fee: 0u64,
+     _nonce: 6480683131255842390406647532838179519970794442201387718334686863304493823461group,
+};
+
+
+[stake]
+owner: address = aleo1avesdzv3cj3e8f6n62k0e90wwd0zkrk6lkl57z7lsun64gsf4qqswftphv;
+amount: u64 = 100u64;
+supply: u64 = 999900u64;
+fee: u64 = 0u64;
+
+[unstake]
+owner: address = aleo1avesdzv3cj3e8f6n62k0e90wwd0zkrk6lkl57z7lsun64gsf4qqswftphv;
+amount: u64 = 100u64;
+supply: u64 = 999900u64;
+fee: u64 = 0u64;
+
+
+
+[borrow]
+owner: address = aleo1avesdzv3cj3e8f6n62k0e90wwd0zkrk6lkl57z7lsun64gsf4qqswftphv;
+amount: u64 = 110u64;
+supply: u64 = 999900u64;
+fee: u64 = 0u64;
+
+
+
+[transfer]
+sender: ALEO =  ALEO {
+    owner: aleo1avesdzv3cj3e8f6n62k0e90wwd0zkrk6lkl57z7lsun64gsf4qqswftphv,
+    gates: 0u64,
+    amount: 160u64,
+    supply: 999900u64,
+    fee: 2u64,
+    _nonce: 0group,
+};
+receiver: address = aleo1mgfq6g40l6zkhsm063n3uhr43qk5e0zsua5aszeq5080dsvlcvxsn0rrau;
+amount: u64 = 10u64;
+supply: u64 = 999900u64;
+fee: u64 = 0u64;
+
+
+
+//swapping protocol
+//USDT - DAI token are being swapped simultaneously depending on the specific amount rendered
+//10 USDT -> 1 DAI, 10 DAI -> 100 USDT
+[swap]
+swapper: ALEO = ALEO {
+    owner: aleo1avesdzv3cj3e8f6n62k0e90wwd0zkrk6lkl57z7lsun64gsf4qqswftphv,
+    gates: 0u64,
+    amount: 150u64,
+    supply: 999900u64,
+    fee: 1u64,
+    _nonce: 0group, 
+};
+swapper2: USDT = USDT {
+    owner: aleo1avesdzv3cj3e8f6n62k0e90wwd0zkrk6lkl57z7lsun64gsf4qqswftphv,
+    gates: 0u64,
+    amount: 0u64,
+    supply: 10000u64,
+    fee: 0u64,
+    _nonce: 0group,
+};
+
+   

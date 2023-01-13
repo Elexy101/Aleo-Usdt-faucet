@@ -1,0 +1,10 @@
+{
+  "program": "test_faucet.aleo",
+  "version": "0.0.0",
+  "description": "",
+  "development": {
+      "private_key": "APrivateKey1zkp92o16EwBQ9M5a7LpLR1Kvq7v8QfzQoz755gGaErydn1x",
+      "address": "aleo1avesdzv3cj3e8f6n62k0e90wwd0zkrk6lkl57z7lsun64gsf4qqswftphv"
+  },
+  "license": "MIT"
+}
