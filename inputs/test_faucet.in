@@ -70,7 +70,7 @@ fee: u64 = 0u64;
 
 //swapping protocol
 //USDT - DAI token are being swapped simultaneously depending on the specific amount rendered
-//10 USDT -> 1 DAI, 10 DAI -> 100 USDT
+//10 ALEO -> 1 USDT, 10 USDT -> 100 ALEO
 [swap]
 swapper: ALEO = ALEO {
     owner: aleo1avesdzv3cj3e8f6n62k0e90wwd0zkrk6lkl57z7lsun64gsf4qqswftphv,
