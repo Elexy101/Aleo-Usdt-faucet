@@ -76,7 +76,7 @@ leo run <function_name>
 ```
 For example,
 ```bash
-leo run set
+leo run main
 leo run faucet
 leo run transfer
 leo run stake
